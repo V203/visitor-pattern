@@ -20,8 +20,7 @@ It is utilized when we need to carry out an operation on a collection of objects
 ****
 |Pros| Cons|
 |--|--|
-|If the operation's logic changes, we only need to update the visitor implementation rather than all the item classes.|
-We should know the return type of visit() methods at the time of designing otherwise we will have to change the interface and all of its implementations.|
+|If the operation's logic changes, we only need to update the visitor implementation rather than all the item classes.|We should know the return type of visit() methods at the time of designing otherwise we will have to change the interface and all of its implementations.|
 |It is simple to add a new item to the system; only the visitor interface and implementation will need to be changed, and the existing item classes won't be impacted.|If there are too many implementations of visitor interface, it makes it hard to extend.|
 
 
