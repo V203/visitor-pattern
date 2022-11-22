@@ -1,3 +1,4 @@
+[![Node.js CI](https://github.com/V203/visitor-pattern/actions/workflows/node.js.yml/badge.svg)](https://github.com/V203/visitor-pattern/actions/workflows/node.js.yml)
 # The visitor design pattern.
 
 
